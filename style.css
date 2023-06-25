@@ -1,0 +1,74 @@
+.button { background-color:bisque; 
+    color: black; 
+    border: 2px inset rgb(177, 151, 177);
+  }
+  
+  .button:hover {
+    background-color: thistle;
+    
+  }
+  html body{
+   
+
+  }
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    border: 3rem;
+    border-color: black;
+    
+
+}
+.head{
+    display: grid;
+    grid-template-columns: 0.1vb 1fr;
+    column-gap: 25rem;
+    height: 35rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.bg{
+    background-image: url(./image.png);
+    
+
+}
+
+.img{
+    height: 35rem;
+    width: 25rem;
+    margin: 0; 
+    border: 0;
+    border-radius: 5px;
+}
+
+.intro-name{
+    border: 3px;
+    border-radius: 20px;
+    padding:4rem;
+    margin: 0.6rem;
+    background-color:#e3f2fd; ;
+}
+.name{
+    display: flex;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    
+}
+
+
+.tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color:#e3f2fd;;
+    margin-top:7px ;
+    padding: 10px;
+    
+}
